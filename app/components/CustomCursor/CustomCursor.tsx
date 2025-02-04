@@ -1,6 +1,5 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import "../../app/globals.css";
 
 const CustomCursor = () => {
   const [position, setPosition] = useState<{ x: number; y: number }>({ x: 0, y: 0 });

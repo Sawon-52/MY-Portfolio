@@ -1,8 +1,8 @@
-import CustomCursor from "@/components/CustomCursor/CustomCursor";
-import Hero from "@/components/sections/Hero/Hero";
-import Navber from "@/components/sections/navber/Navber";
-import Stats from "@/components/sections/Stats/Stats";
-import Title from "@/components/sections/Title/Title";
+import CustomCursor from "@/app/components/CustomCursor/CustomCursor";
+import Hero from "@/app/components/sections/Hero/Hero";
+import Navber from "@/app/components/sections/navber/Navber";
+import Title from "@/app/components/sections/Title/Title";
+import About from "./components/sections/About/About";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
         <nav className="">
           <Navber />
         </nav>
-        <main className="min-h-screen ">
+        <main className="min-h-screen p-5 lg:p-0">
           {/* hero section */}
           <section className="max-w-screen-lg mx-auto">
             <Hero />
@@ -22,6 +22,7 @@ export default function Home() {
           {/* About me section */}
           <section className="max-w-screen-lg mx-auto">
             <Title subtitle="Introduction" maintitle="About Me" />
+            <About />
           </section>
         </main>
       </div>
