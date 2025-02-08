@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Sora } from "next/font/google";
 import "./globals.css";
+import { ThemeProvider } from "./components/theme-provider/theme-provider";
 
 const SoraSans = Sora({
   variable: "--font-Sora-sans",
@@ -18,8 +19,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* <body className={`${geistSans.variable} ${geistMono.variable} ${SoraSans.className} antialiased`}>{children}</body> */}
-      <body className={` ${SoraSans.className} antialiased`}>{children}</body>
+      <body className={` ${SoraSans.className} antialiased`}>
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   );
 }

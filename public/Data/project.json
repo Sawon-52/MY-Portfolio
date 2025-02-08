@@ -1,0 +1,18 @@
+[
+  {
+    "title": "A Complete Full-Stack eCommerce Platform!",
+    "image": "../ecommerc.png",
+    "features": ["Registration & Login", "Product Search & Categories", "Product Reviews & Comments", "SSLCOMMERZ Integration", "Powerful Admin Panel"],
+    "technologies": ["React.js", "TailwindCSS", "daisyUI", "Redux Toolkit", "Express.js", "MongoDB"],
+    "liveLink": "https://baskify-e-commerce-platform-wu0y.onrender.com",
+    "githubLink": "https://github.com/Sawon-52/Baskify-E-Commerce-platform"
+  },
+  {
+    "title": "A portfolio website",
+    "image": "../myPortfolio.png",
+    "features": ["Dark Mode", "Responsive Layout", "Animation"],
+    "technologies": ["Next.js", "Tailwind CSS", "shadcn/ui", "GSAP"],
+    "liveLink": "https://project3.com",
+    "githubLink": "https://github.com/user/project3"
+  }
+]
