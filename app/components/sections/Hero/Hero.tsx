@@ -16,7 +16,7 @@ const Hero = () => {
         <div className="flex flex-col items-center">
           <div className="flex items-center justify-center  gap-1  my-4 ">
             <div className="flex items-center  text-secondary-color text-xl  lg:text-2xl  lg:leading-1.5 font-bold dark:text-off-white-color">
-              <h4>Hi, I'm</h4>
+              <h4>Hi, I&apos;m</h4>
               <Image className="max-w-[60px] min-h-[60px] object-cover rounded-38px border-2 border-seondary-color rounded-xl hover:border-primary-color hover:rotate-0 rotate-[4.29deg] transition-all duration-300 mx-2" src={myImage} alt="My Picture" />
               <h4>Mehedi Hasan!</h4>
             </div>
