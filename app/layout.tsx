@@ -3,8 +3,10 @@ import { Sora } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./components/theme-provider/theme-provider";
 
-const SoraSans = Sora({
-  variable: "--font-Sora-sans",
+const sora = Sora({
+  subsets: ["latin"],
+  variable: "--font-sora-sans",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -19,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={` ${SoraSans.className} antialiased`}>
+      <body className={` ${sora.className} antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           {children}
         </ThemeProvider>
