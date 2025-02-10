@@ -23,7 +23,7 @@ const Hero = () => {
           </div>
 
           <div className="px-2 md:px-2 lg:px-12 text-5xl md:text-6xl">
-            <h1 className="font-bold bg-gradient-to-r from-primary-color to-secondary-color bg-clip-text text-transparent leading-[60px] md:leading-[75px] dark:bg-gradient-to-r dark:from-off-white-color dark:to-primary-color dark:bg-clip-text dark:text-transparent">Frontend Web Developer Based in Bangladesh</h1>
+            <h1 className="font-bold bg-gradient-to-r from-primary-color to-secondary-color bg-clip-text text-transparent leading-[60px] md:leading-[75px] dark:bg-gradient-to-r dark:from-off-white-color dark:to-primary-color dark:bg-clip-text dark:text-transparent">Full Stack Web Developer Based in Bangladesh</h1>
           </div>
 
           <div className="px-12 lg:px-10">

@@ -38,12 +38,12 @@ const ProjectCard = ({ title, image, features, technologies, liveLink, githubLin
             </div>
           </div>
           <div className="flex gap-4">
-            <Link href={liveLink} target="_blank" className="text-center bg-blue-500 p-2 rounded-lg hover:bg-blue-600 transition-colors">
-              Live Demo
+            <Link href={liveLink} target="_blank" className="text-center border text-primary-color-light border-primary-color p-2 px-3 rounded-sm bg-purple-300 transition-colors dark:hover:text-secondary-color">
+              Live
             </Link>
 
-            <Link href={githubLink} target="_blank" className="text-center  bg-gray-700 p-2 rounded-lg hover:bg-gray-800 transition-colors">
-              GitHub
+            <Link href={githubLink} target="_blank" className="text-center border text-primary-color-light border-primary-color p-2 px-3 rounded-sm bg-green-300 transition-colors dark:hover:text-secondary-color">
+              Code
             </Link>
           </div>
         </div>
