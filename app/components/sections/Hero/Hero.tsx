@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { AiOutlineDownload } from "react-icons/ai";
 
 const Hero = () => {
-  const googleDocsResume = "https://docs.google.com/document/d/1ApOhsj2EN1YyXrT9slnZxGCuTxikXO9fr-hhb1xx5XY/edit?tab=t.0";
+  // const googleDocsResume = "https://docs.google.com/document/d/1ApOhsj2EN1YyXrT9slnZxGCuTxikXO9fr-hhb1xx5XY/edit?tab=t.0";
 
   return (
     <>
@@ -32,7 +32,7 @@ const Hero = () => {
         </div>
 
         <div className="flex items-center justify-center gap-5 flex-wrap my-5">
-          <a href={googleDocsResume} target="_blank" className="">
+          <a href="/Resume.pdf" target="_blank" className="" download="Resume.pdf">
             <Button variant="custom">
               <p>Resume</p>
               <AiOutlineDownload />
