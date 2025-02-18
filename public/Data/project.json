@@ -3,7 +3,7 @@
     "title": "A Complete Full-Stack eCommerce Platform!",
     "image": "../ecommerc.png",
     "features": ["Registration & Login", "Product Search & Categories", "Product Reviews & Comments", "SSLCOMMERZ Integration", "Powerful Admin Panel"],
-    "technologies": ["React.js","JavaScript", "TailwindCSS", "daisyUI", "Redux Toolkit", "Express.js", "MongoDB"],
+    "technologies": ["React.js", "JavaScript", "TailwindCSS", "daisyUI", "Redux Toolkit", "Express.js", "MongoDB"],
     "liveLink": "https://baskify-e-commerce-platform-wu0y.onrender.com",
     "githubLink": "https://github.com/Sawon-52/Baskify-E-Commerce-platform"
   },
@@ -11,8 +11,17 @@
     "title": "A portfolio website",
     "image": "../myPortfolio.png",
     "features": ["Dark Mode", "Responsive Layout", "Animation"],
-    "technologies": ["Next.js","TypeScript", "Tailwind CSS", "Shadcn/ui", "GSAP"],
+    "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "Shadcn/ui", "GSAP"],
     "liveLink": "https://project3.com",
     "githubLink": "https://github.com/user/project3"
+  },
+
+  {
+    "title": "University learning and social media platform",
+    "image": "../vu_colab.png",
+    "features": ["Integrated Learning Management", "Community Engagement", "Interactive Learning", "Responsive Design"],
+    "technologies": ["HTML", "CSS", "Bootstrap", "MySQL", "PHP", "CodeIgniter"],
+    "liveLink": "https://sawon-52.github.io/Vu-CoLab/index.html",
+    "githubLink": "https://github.com/Sawon-52/Vu-CoLab"
   }
 ]
