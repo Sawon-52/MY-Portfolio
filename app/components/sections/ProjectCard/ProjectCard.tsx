@@ -5,11 +5,11 @@ interface ProjectCardProps {
   image: string;
   features: string[];
   technologies: string[];
-  liveLink: string;
+  liveLink?: string;
   githubLink: string;
 }
 
-const ProjectCard = ({ title, image, features, technologies, liveLink, githubLink }: ProjectCardProps) => {
+const ProjectCard = ({ title, image, features, technologies, liveLink = "", githubLink }: ProjectCardProps) => {
   return (
     <>
       <div className="relative rounded-lg  cursor-pointer bg-white/10 backdrop-blur-md  shadow-lg  hover:shadow-xl transition-shadow duration-300 text-primary-color-light group overflow-hidden ">
@@ -20,7 +20,7 @@ const ProjectCard = ({ title, image, features, technologies, liveLink, githubLin
 
         {/* Content Overlay */}
         <div className="relative z-10 flex flex-col items-start justify-between  p-6 text-left text-primary-color-light dark:text-off-white-color h-full">
-          <h3 className="text-xl font-semibold mb-2 ">{title}</h3>
+          <h3 className="text-xl font-semibold mb-2 dark:bg-primary-color-light dark:bg-opacity-40 dark:p-3 dark: rounded-lg">{title}</h3>
           <div className="mb-4">
             <ul className="list-disc list-inside /80">
               {features.map((feature, index) => (
@@ -37,10 +37,15 @@ const ProjectCard = ({ title, image, features, technologies, liveLink, githubLin
               ))}
             </div>
           </div>
+
           <div className="flex gap-4">
-            <Link href={liveLink} target="_blank" className="text-center border text-primary-color-light border-primary-color p-2 px-3 rounded-sm bg-purple-300 transition-colors dark:hover:text-secondary-color">
-              Live
-            </Link>
+            {liveLink === "" ? (
+              " "
+            ) : (
+              <Link href={liveLink} target="_blank" className="text-center border text-primary-color-light border-primary-color p-2 px-3 rounded-sm bg-purple-300 transition-colors dark:hover:text-secondary-color">
+                Live
+              </Link>
+            )}
 
             <Link href={githubLink} target="_blank" className="text-center border text-primary-color-light border-primary-color p-2 px-3 rounded-sm bg-green-300 transition-colors dark:hover:text-secondary-color">
               Code

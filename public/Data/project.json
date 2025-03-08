@@ -23,5 +23,13 @@
     "technologies": ["HTML", "CSS", "Bootstrap", "MySQL", "PHP", "CodeIgniter"],
     "liveLink": "https://sawon-52.github.io/Vu-CoLab/index.html",
     "githubLink": "https://github.com/Sawon-52/Vu-CoLab"
+  },
+
+  {
+    "title": "A Complete Full-Stack Blog Website",
+    "image": "../vu_colab.png",
+    "features": ["User Authentication", " User Interaction", "Admin Dashboard", "Contact System", "Responsive Design"],
+    "technologies": ["HTML", "CSS","tailwind", "PHP", "MySQL"],
+    "githubLink": "https://github.com/Sawon-52/IdeaBolt"
   }
 ]

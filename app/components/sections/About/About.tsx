@@ -27,7 +27,7 @@ const About = () => {
             <div className="grid place-items-center p-8  space-y-1 rounded-md border border-primary-color min-h-[150px]">
               <PiCertificateFill className="text-4xl  text-secondary-color " />
               <h2 className="text-sm font-medium">
-                Proficient in <span className="bg-gradient-to-b from-primary-color to-secondary-color bg-clip-text text-transparent dark:bg-gradient-to-t dark:from-off-white-color dark:to-primary-color dark:bg-clip-text dark:text-transparent mx-1"> JavaScript</span> and <span className="bg-gradient-to-b from-primary-color to-secondary-color bg-clip-text text-transparent dark:bg-gradient-to-t dark:from-off-white-color dark:to-primary-color dark:bg-clip-text dark:text-transparent mr-1">React.js</span>
+                Proficient in <span className="bg-gradient-to-b from-primary-color to-secondary-color bg-clip-text text-transparent dark:bg-gradient-to-t dark:from-off-white-color dark:to-primary-color dark:bg-clip-text dark:text-transparent mx-1"> PHP</span>, <span className="bg-gradient-to-b from-primary-color to-secondary-color bg-clip-text text-transparent dark:bg-gradient-to-t dark:from-off-white-color dark:to-primary-color dark:bg-clip-text dark:text-transparent mx-1"> JavaScript</span> and <span className="bg-gradient-to-b from-primary-color to-secondary-color bg-clip-text text-transparent dark:bg-gradient-to-t dark:from-off-white-color dark:to-primary-color dark:bg-clip-text dark:text-transparent mr-1">React.js</span>
               </h2>
               <Link href="#projects">
                 <Button variant="custom" size="sm">

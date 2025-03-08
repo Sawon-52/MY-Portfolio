@@ -11,6 +11,10 @@ import nodeImage from "@/public/nodejs.png";
 import expressImage from "@/public/express.png";
 import mongoImage from "@/public/mongo-db.png";
 import reduxImage from "@/public/redux.png";
+import phpImage from "@/public/php.png";
+import mySqlImage from "@/public/mysql.png";
+import bootstrap from "@/public/bootstrap-framework.png";
+
 import Image from "next/image";
 
 const TechStack = () => {
@@ -18,6 +22,7 @@ const TechStack = () => {
     { name: "HTML", description: "Markup Language", image: htmlImage },
     { name: "CSS", description: "User Interface", image: cssImage },
     { name: "TailwindCSS", description: "CSS framework", image: TailwindCSSImage },
+    { name: "Bootstrap", description: "CSS framework", image: bootstrap },
     { name: "GSAP", description: "Animation library", image: GSAPImage },
     { name: "JavaScript", description: "Interaction", image: jsImage },
     { name: "TypeScript", description: "Typed JavaScript", image: tsImage },
@@ -25,6 +30,8 @@ const TechStack = () => {
     { name: "ReactJS", description: "JavaScript library", image: reactImage },
     { name: "NextJS", description: "React Framework", image: nextImage },
     { name: "NodeJS", description: "Web Server", image: nodeImage },
+    { name: "PHP", description: "Web Server", image: phpImage },
+    { name: "MySQL", description: "Database", image: mySqlImage },
     { name: "ExpressJS", description: "Node Framework", image: expressImage },
     { name: "MongoDB", description: "Database", image: mongoImage },
   ];
