@@ -29,7 +29,7 @@
     "title": "A Complete Full-Stack Blog Website",
     "image": "../vu_colab.png",
     "features": ["User Authentication", " User Interaction", "Admin Dashboard", "Contact System", "Responsive Design"],
-    "technologies": ["HTML", "CSS","tailwind", "PHP", "MySQL"],
+    "technologies": ["HTML", "CSS", "tailwind", "JavaScript", "PHP", "MySQL"],
     "githubLink": "https://github.com/Sawon-52/IdeaBolt"
   }
 ]
